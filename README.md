@@ -36,6 +36,7 @@ The app uses React Hooks for state management and includes a clean and responsiv
 
 ## Folder Structure
 
+```bash
 src/
 │
 ├── components/
@@ -46,28 +47,58 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
+---
 
-**How to Run the Project**
-1. Clone the Repository
+## How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
 git clone <repository-url>
-2. Navigate to Project Folder
+```
+
+### 2. Navigate to Project Folder
+
+```bash
 cd task-manager
-3. Install Dependencies
+```
+
+### 3. Install Dependencies
+
+```bash
 npm install
-4. Start Development Server
+```
+
+### 4. Start Development Server
+
+```bash
 npm run dev
-5. Open Browser
+```
+
+### 5. Open Browser
 
 Visit:
+
+```bash
 http://localhost:5173
+```
 
-**Build for Production**
+---
+
+## Build for Production
+
+```bash
 npm run build
+```
 
-**Future Improvements**
-Local Storage Support
-Task Filters
-Dark Mode
-Backend Integration
-Authentication
+---
+
+## Future Improvements
+
+- Local Storage Support
+- Task Filters
+- Dark Mode
+- Backend Integration
+- Authentication
